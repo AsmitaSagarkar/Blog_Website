@@ -106,6 +106,21 @@ app.get("/posts/:postId", function (req, res) {
 
     });
 });
+
+//DELETE ALL BLOGS 
+app.delete("/delete",function(req,res){
+    Post.deleteMany().then(err=>{
+        if(err){
+            res.send(err);
+        }
+        else{
+            res.send("Successfully deleted all items");
+        }
+    });
+
+});
+
+
 app.listen(3000, function (req, res) {
     console.log("Server started at port 3000");
 
