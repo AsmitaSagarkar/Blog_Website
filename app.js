@@ -108,6 +108,23 @@ app.get("/posts/:postId", function (req, res) {
 });
 
 //DELETE ALL BLOGS 
+// app.post("/delete",function(req,res){
+//     app.delete("/delete",function(req,res){
+//         Post.deleteMany().then(err=>{
+//             if(err){
+//                 res.send(err);
+//             }
+//             else{
+//                 res.send("Successfully deleted all items");
+//             }
+           
+//         });
+        
+    
+//     });
+    
+// })
+
 app.delete("/delete",function(req,res){
     Post.deleteMany().then(err=>{
         if(err){
@@ -116,7 +133,9 @@ app.delete("/delete",function(req,res){
         else{
             res.send("Successfully deleted all items");
         }
+       
     });
+    
 
 });
 
