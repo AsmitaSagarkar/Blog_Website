@@ -124,7 +124,7 @@ app.get("/posts/:postId", function (req, res) {
 //     });
     
 // })
-
+// DELETE ALL BLOGS
 app.delete("/delete",function(req,res){
     Post.deleteMany().then(err=>{
         if(err){
@@ -135,6 +135,7 @@ app.delete("/delete",function(req,res){
         }
        
     });
+    res.redirect("/");
     
 
 });
