@@ -11,3 +11,7 @@ The enchanting touch of EJS brings life to our pages, allowing us to dynamically
 Delve into a diverse world of topics, curated with passion, from tech innovations to travel diaries, and from insightful musings to creative inspirations. 🌐📌
 
 As you explore our blog, you'll find knowledge, inspiration, and entertainment all in one place. So, sit back, relax, and enjoy the wonderful journey of reading! 📖🌈✨
+
+
+https://github.com/AsmitaSagarkar/Blog_Website/assets/121784973/0174c98d-bfde-4654-89ab-f15d8524a7b7
+
